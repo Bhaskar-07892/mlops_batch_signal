@@ -1,0 +1,10 @@
+seed: 42
+window: 5 # for rolling mean
+version: "v1"
+
+logging:
+  level: "INFO"
+
+data:
+  required_columns:
+    - close
